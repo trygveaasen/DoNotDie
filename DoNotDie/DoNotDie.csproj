@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>spy.ico</ApplicationIcon>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="spy.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="spy.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+
+</Project>

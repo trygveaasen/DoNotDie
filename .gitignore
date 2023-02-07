@@ -1,0 +1,7 @@
+Bin/
+Obj/
+packages/
+Build/
+.vs/
+*.user
+*.orig
