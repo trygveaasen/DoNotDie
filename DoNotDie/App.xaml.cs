@@ -15,7 +15,6 @@ namespace DoNotDie
     /// </summary>
     public partial class App : System.Windows.Application
     {
-        NotifyIcon icon = new NotifyIcon();
         MenuItem keepAlive = new MenuItem("Keep alive");
         MenuItem die = new MenuItem("Let die");
         public App() 
